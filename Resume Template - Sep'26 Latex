@@ -1,0 +1,133 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Your Name} \\ \vspace{2pt}
+    \small Your Target Job Title \\ \vspace{2pt}
+    \small Your Phone Number $|$
+    \href{mailto:your.email@example.com}{\underline{your.email@example.com}} $|$
+    \href{https://linkedin.com/in/yourprofile}{\underline{linkedin.com/in/yourprofile}}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\resumeItemListStart
+  \resumeItem{2--3 sentence summary of your total years of experience, your field, and the industries you've worked in. State your core value proposition up front.}
+  \resumeItem{Name the tools, languages, or platforms you use most, and the kind of work you do with them (e.g. "reporting", "development", "analysis").}
+  \resumeItem{Mention any specialized systems or environments you have hands-on experience with, relevant to the roles you're targeting.}
+  \resumeItem{Call out a signature strength or outcome you consistently deliver, backed by the kind of result a hiring manager cares about (efficiency, accuracy, revenue, etc.).}
+  \resumeItem{Close with a cross-functional or soft-skill strength (communication, requirements gathering, leadership) tied to how it helps the business.}
+\resumeItemListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Category One}{: Skill, Skill, Skill, Skill} \\
+    \textbf{Category Two}{: Skill, Skill, Skill, Skill} \\
+    \textbf{Category Three}{: Skill, Skill, Skill, Skill} \\
+    \textbf{Category Four}{: Skill, Skill, Skill, Skill} \\
+    \textbf{Category Five}{: Skill, Skill, Skill, Skill}
+  }}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Company Name}{Start Date -- End Date}
+    {Job Title}{City, State/Country}
+    \resumeItemListStart
+      \resumeItem{Start with an action verb, state what you did, and quantify it with a number (people, records, percentage, dollar amount, or time saved).}
+      \resumeItem{Describe a specific tool or system you used and the task you accomplished with it, again backed by a number.}
+      \resumeItem{Describe a deliverable you built or process you improved, and state the measurable impact it had.}
+      \resumeItem{Describe how you worked with others (stakeholders, teams, departments) and what that collaboration produced.}
+      \resumeItem{Add 4--8 bullets total per role, each following the pattern: Action Verb + What You Did + Tool/Context + Quantified Result.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Company Name}{Start Date -- End Date}
+    {Job Title}{City, State/Country}
+    \resumeItemListStart
+      \resumeItem{Repeat the same bullet pattern for each prior role, most recent first.}
+      \resumeItem{Keep each bullet to one line or two at most; cut anything that doesn't show impact.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {University Name}{City, State/Country}
+    {Degree, Major}{Graduation Date (optional)}
+  \resumeSubheading
+    {University Name}{City, State/Country}
+    {Degree, Major}{Graduation Date (optional)}
+\resumeSubHeadingListEnd
+
+\end{document}
